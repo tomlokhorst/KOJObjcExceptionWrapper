@@ -17,7 +17,7 @@ NSString *const KOJObjcExceptionWrapperCallStackSymbols         = @"KOJObjcExcep
 NSString *const KOJObjcExceptionWrapperUserInfo                 = @"KOJObjcExceptionWrapperUserInfo";
 
 @implementation KOJObjcExceptionWrapper
-+ (BOOL)throws:(void(^)())block error:(__autoreleasing NSError **)error {
++ (BOOL)throwsBlock:(void(^)())block error:(__autoreleasing NSError **)error {
   @try {
     block();
     return YES;
