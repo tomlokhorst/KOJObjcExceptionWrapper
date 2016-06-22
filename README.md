@@ -14,7 +14,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ```swift
 do {
   try KOJObjcExceptionWrapper.throwsBlock {
-    // throw NSException
+    // @throw NSException from Objective-C
   }
 } catch let e as NSError {
   e.userInfo[KOJObjcExceptionWrapperCode]
