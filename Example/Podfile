@@ -1,0 +1,6 @@
+use_frameworks!
+target 'KOJObjcExceptionWrapper_Tests' do
+  pod 'KOJObjcExceptionWrapper', :path => '../'
+  
+  
+end
