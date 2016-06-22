@@ -17,7 +17,7 @@ You can catch NSException in Swift with this pod.
 
   s.homepage         = 'https://github.com/malt03/KOJObjcExceptionWrapper'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Koji Murata' => 'koji.murata@dena.com' }
+  s.author           = { 'Koji Murata' => 'malt.koji@gmail.com' }
   s.source           = { :git => 'https://github.com/malt03/KOJObjcExceptionWrapper.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
