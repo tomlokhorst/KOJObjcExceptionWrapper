@@ -7,41 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		81565652F28AEEBD2571FFBA /* Pods_KOJObjcExceptionWrapper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8004A1DE1C437338B3B5C65 /* Pods_KOJObjcExceptionWrapper_Tests.framework */; };
+		ED4162871F29D4F20073B6CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4162861F29D4F20073B6CB /* AppDelegate.swift */; };
+		ED4162891F29D4F20073B6CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4162881F29D4F20073B6CB /* ViewController.swift */; };
+		ED41628C1F29D4F20073B6CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED41628A1F29D4F20073B6CB /* Main.storyboard */; };
+		ED41628E1F29D4F20073B6CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED41628D1F29D4F20073B6CB /* Assets.xcassets */; };
+		ED4162911F29D4F20073B6CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED41628F1F29D4F20073B6CB /* LaunchScreen.storyboard */; };
+		ED41629B1F29D54B0073B6CB /* KOJExceptionThrower.m in Sources */ = {isa = PBXBuildFile; fileRef = ED41629A1F29D54B0073B6CB /* KOJExceptionThrower.m */; };
+		F94E929E26E742F1BC537F75 /* Pods_KOJObjcExceptionWrapper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED66A19675384D14EE83C4CC /* Pods_KOJObjcExceptionWrapper_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F7B65A1F2AD6161BC2FCC1B /* Pods-KOJObjcExceptionWrapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOJObjcExceptionWrapper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KOJObjcExceptionWrapper_Example/Pods-KOJObjcExceptionWrapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F5AE195388D20070C39A /* KOJObjcExceptionWrapper_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KOJObjcExceptionWrapper_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
-		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		62AA0DD168E375B75A17C437 /* Pods-KOJObjcExceptionWrapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOJObjcExceptionWrapper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KOJObjcExceptionWrapper_Tests/Pods-KOJObjcExceptionWrapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		928D4913190140B87370EC46 /* Pods-KOJObjcExceptionWrapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOJObjcExceptionWrapper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KOJObjcExceptionWrapper_Tests/Pods-KOJObjcExceptionWrapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB0C33D3FB39FAC2E7C5387B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D8004A1DE1C437338B3B5C65 /* Pods_KOJObjcExceptionWrapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KOJObjcExceptionWrapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D819562E29F340DC74AF84C0 /* Pods-KOJObjcExceptionWrapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KOJObjcExceptionWrapper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KOJObjcExceptionWrapper_Example/Pods-KOJObjcExceptionWrapper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		ED4162841F29D4F20073B6CB /* KOJObjcExceptionWrapper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KOJObjcExceptionWrapper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4162861F29D4F20073B6CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED4162881F29D4F20073B6CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED41628B1F29D4F20073B6CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED41628D1F29D4F20073B6CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED4162901F29D4F20073B6CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED4162921F29D4F20073B6CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4162981F29D54A0073B6CB /* KOJObjcExceptionWrapper_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KOJObjcExceptionWrapper_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		ED4162991F29D54B0073B6CB /* KOJExceptionThrower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOJExceptionThrower.h; sourceTree = "<group>"; };
+		ED41629A1F29D54B0073B6CB /* KOJExceptionThrower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOJExceptionThrower.m; sourceTree = "<group>"; };
+		ED66A19675384D14EE83C4CC /* Pods_KOJObjcExceptionWrapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KOJObjcExceptionWrapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF97E1D06DF00F8AC7A8675 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FD3D79451D7BD5D1842CA40C /* KOJObjcExceptionWrapper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KOJObjcExceptionWrapper.podspec; path = ../KOJObjcExceptionWrapper.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6003F5AB195388D20070C39A /* Frameworks */ = {
+		ED4162811F29D4F20073B6CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				81565652F28AEEBD2571FFBA /* Pods_KOJObjcExceptionWrapper_Tests.framework in Frameworks */,
+				F94E929E26E742F1BC537F75 /* Pods_KOJObjcExceptionWrapper_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +59,8 @@
 			children = (
 				928D4913190140B87370EC46 /* Pods-KOJObjcExceptionWrapper_Tests.debug.xcconfig */,
 				62AA0DD168E375B75A17C437 /* Pods-KOJObjcExceptionWrapper_Tests.release.xcconfig */,
+				0F7B65A1F2AD6161BC2FCC1B /* Pods-KOJObjcExceptionWrapper_Example.debug.xcconfig */,
+				D819562E29F340DC74AF84C0 /* Pods-KOJObjcExceptionWrapper_Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -61,7 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F5B5195388D20070C39A /* Tests */,
+				ED4162851F29D4F20073B6CB /* Example for KOJObjcExceptionWrapper */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				0DBABD90F202E23C10669295 /* Pods */,
@@ -71,7 +79,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5AE195388D20070C39A /* KOJObjcExceptionWrapper_Tests.xctest */,
+				ED4162841F29D4F20073B6CB /* KOJObjcExceptionWrapper_Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,27 +92,9 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				D8004A1DE1C437338B3B5C65 /* Pods_KOJObjcExceptionWrapper_Tests.framework */,
+				ED66A19675384D14EE83C4CC /* Pods_KOJObjcExceptionWrapper_Example.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6003F5B5195388D20070C39A /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
-				6003F5B6195388D20070C39A /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		6003F5B6195388D20070C39A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6003F5B7195388D20070C39A /* Tests-Info.plist */,
-				6003F5B8195388D20070C39A /* InfoPlist.strings */,
-				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
@@ -117,28 +107,45 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		ED4162851F29D4F20073B6CB /* Example for KOJObjcExceptionWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				ED4162861F29D4F20073B6CB /* AppDelegate.swift */,
+				ED4162881F29D4F20073B6CB /* ViewController.swift */,
+				ED4162991F29D54B0073B6CB /* KOJExceptionThrower.h */,
+				ED41629A1F29D54B0073B6CB /* KOJExceptionThrower.m */,
+				ED4162981F29D54A0073B6CB /* KOJObjcExceptionWrapper_Example-Bridging-Header.h */,
+				ED41628A1F29D4F20073B6CB /* Main.storyboard */,
+				ED41628D1F29D4F20073B6CB /* Assets.xcassets */,
+				ED41628F1F29D4F20073B6CB /* LaunchScreen.storyboard */,
+				ED4162921F29D4F20073B6CB /* Info.plist */,
+			);
+			name = "Example for KOJObjcExceptionWrapper";
+			path = KOJObjcExceptionWrapper_Example;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F5AD195388D20070C39A /* KOJObjcExceptionWrapper_Tests */ = {
+		ED4162831F29D4F20073B6CB /* KOJObjcExceptionWrapper_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "KOJObjcExceptionWrapper_Tests" */;
+			buildConfigurationList = ED4162931F29D4F20073B6CB /* Build configuration list for PBXNativeTarget "KOJObjcExceptionWrapper_Example" */;
 			buildPhases = (
-				9A8F10F12ADB8107D78C1AE6 /* [CP] Check Pods Manifest.lock */,
-				6003F5AA195388D20070C39A /* Sources */,
-				6003F5AB195388D20070C39A /* Frameworks */,
-				6003F5AC195388D20070C39A /* Resources */,
-				90F879D0E1BD6849568D628F /* [CP] Embed Pods Frameworks */,
-				301EDD89EB14EC251D9E0E5E /* [CP] Copy Pods Resources */,
+				C7FEFB73102291EC95E81DE9 /* [CP] Check Pods Manifest.lock */,
+				ED4162801F29D4F20073B6CB /* Sources */,
+				ED4162811F29D4F20073B6CB /* Frameworks */,
+				ED4162821F29D4F20073B6CB /* Resources */,
+				D7ACE8AE2C73A79000C7FF9F /* [CP] Embed Pods Frameworks */,
+				ABE15E2B0907C30D3EFCB272 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KOJObjcExceptionWrapper_Tests;
-			productName = KOJObjcExceptionWrapperTests;
-			productReference = 6003F5AE195388D20070C39A /* KOJObjcExceptionWrapper_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = KOJObjcExceptionWrapper_Example;
+			productName = KOJObjcExceptionWrapper_Example;
+			productReference = ED4162841F29D4F20073B6CB /* KOJObjcExceptionWrapper_Example.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -147,11 +154,14 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = KOJ;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Koji Murata";
 				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
+					ED4162831F29D4F20073B6CB = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -168,24 +178,26 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F5AD195388D20070C39A /* KOJObjcExceptionWrapper_Tests */,
+				ED4162831F29D4F20073B6CB /* KOJObjcExceptionWrapper_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6003F5AC195388D20070C39A /* Resources */ = {
+		ED4162821F29D4F20073B6CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				ED4162911F29D4F20073B6CB /* LaunchScreen.storyboard in Resources */,
+				ED41628E1F29D4F20073B6CB /* Assets.xcassets in Resources */,
+				ED41628C1F29D4F20073B6CB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		301EDD89EB14EC251D9E0E5E /* [CP] Copy Pods Resources */ = {
+		ABE15E2B0907C30D3EFCB272 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,25 +209,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KOJObjcExceptionWrapper_Tests/Pods-KOJObjcExceptionWrapper_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KOJObjcExceptionWrapper_Example/Pods-KOJObjcExceptionWrapper_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		90F879D0E1BD6849568D628F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KOJObjcExceptionWrapper_Tests/Pods-KOJObjcExceptionWrapper_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9A8F10F12ADB8107D78C1AE6 /* [CP] Check Pods Manifest.lock */ = {
+		C7FEFB73102291EC95E81DE9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -227,29 +224,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7ACE8AE2C73A79000C7FF9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KOJObjcExceptionWrapper_Example/Pods-KOJObjcExceptionWrapper_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6003F5AA195388D20070C39A /* Sources */ = {
+		ED4162801F29D4F20073B6CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				ED4162891F29D4F20073B6CB /* ViewController.swift in Sources */,
+				ED41629B1F29D54B0073B6CB /* KOJExceptionThrower.m in Sources */,
+				ED4162871F29D4F20073B6CB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+		ED41628A1F29D4F20073B6CB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6003F5B9195388D20070C39A /* en */,
+				ED41628B1F29D4F20073B6CB /* Base */,
 			);
-			name = InfoPlist.strings;
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED41628F1F29D4F20073B6CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED4162901F29D4F20073B6CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -328,45 +350,59 @@
 			};
 			name = Release;
 		};
-		6003F5C3195388D20070C39A /* Debug */ = {
+		ED4162941F29D4F20073B6CB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 928D4913190140B87370EC46 /* Pods-KOJObjcExceptionWrapper_Tests.debug.xcconfig */;
+			baseConfigurationReference = 0F7B65A1F2AD6161BC2FCC1B /* Pods-KOJObjcExceptionWrapper_Example.debug.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = KOJObjcExceptionWrapper_Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dena.KOJObjcExceptionWrapper-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KOJObjcExceptionWrapper_Example.app/KOJObjcExceptionWrapper_Example";
-				WRAPPER_EXTENSION = xctest;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "KOJObjcExceptionWrapper_Example/KOJObjcExceptionWrapper_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		6003F5C4195388D20070C39A /* Release */ = {
+		ED4162951F29D4F20073B6CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62AA0DD168E375B75A17C437 /* Pods-KOJObjcExceptionWrapper_Tests.release.xcconfig */;
+			baseConfigurationReference = D819562E29F340DC74AF84C0 /* Pods-KOJObjcExceptionWrapper_Example.release.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = KOJObjcExceptionWrapper_Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dena.KOJObjcExceptionWrapper-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KOJObjcExceptionWrapper_Example.app/KOJObjcExceptionWrapper_Example";
-				WRAPPER_EXTENSION = xctest;
+				SWIFT_OBJC_BRIDGING_HEADER = "KOJObjcExceptionWrapper_Example/KOJObjcExceptionWrapper_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -382,14 +418,13 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "KOJObjcExceptionWrapper_Tests" */ = {
+		ED4162931F29D4F20073B6CB /* Build configuration list for PBXNativeTarget "KOJObjcExceptionWrapper_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6003F5C3195388D20070C39A /* Debug */,
-				6003F5C4195388D20070C39A /* Release */,
+				ED4162941F29D4F20073B6CB /* Debug */,
+				ED4162951F29D4F20073B6CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
