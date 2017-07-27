@@ -24,5 +24,6 @@ DerivedData
 
 Carthage/*
 !Carthage/KOJObjcExceptionWrapper
+*.framework.zip
 
 Example/Pods
