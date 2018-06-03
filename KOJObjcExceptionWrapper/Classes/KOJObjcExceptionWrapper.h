@@ -23,5 +23,5 @@ UIKIT_EXTERN NSString *const KOJObjcExceptionWrapperCallStackReturnAddresses;
 UIKIT_EXTERN NSString *const KOJObjcExceptionWrapperCallStackSymbols;
 UIKIT_EXTERN NSString *const KOJObjcExceptionWrapperUserInfo;
 
-+ (BOOL)throwsBlock:(void(^)())block error:(__autoreleasing NSError **)error;
++ (BOOL)throwsBlock:(void(^)(void))block error:(__autoreleasing NSError **)error;
 @end
