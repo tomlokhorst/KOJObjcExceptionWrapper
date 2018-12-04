@@ -1,5 +1,5 @@
 PODS:
-  - KOJObjcExceptionWrapper (0.1.0)
+  - KOJObjcExceptionWrapper (0.1.1)
 
 DEPENDENCIES:
   - KOJObjcExceptionWrapper (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KOJObjcExceptionWrapper: 75d6b90f96a377e4b5edc82405e592f34adf27a5
+  KOJObjcExceptionWrapper: 2ec212b43a08ab073e26c26042a7dbbf5166f66e
 
 PODFILE CHECKSUM: 07b013c258ead0b7979cc6f93c5259156b8c1ddd
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.5.0
